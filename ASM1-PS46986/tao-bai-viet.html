@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng bài viết mới</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-light">
+    <div class="container my-3 p-0 border bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning-subtle border-bottom px-3">
+            <a class="navbar-brand fw-bold text-danger" href="index.html"><i class="fa-solid fa-dragon"></i> Hiệp Khách Kim Dung</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="danh-sach-bai-viet.html">Bài viết</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tao-bai-viet.html">Đăng bài</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quan-ly-bai-viet.html">Quản lý bài</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="p-4">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="fa-solid fa-pen-to-square"></i> Tạo bài viết mới</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="postTitle" class="form-label">Tiêu đề bài viết</label>
+                            <input type="text" id="postTitle" class="form-control" placeholder="Ví dụ: Vì sao Kiếm Ỷ Thiên lại nổi tiếng?">
+                        </div>
+                        <div class="mb-3">
+                            <label for="postCategory" class="form-label">Chuyên mục</label>
+                            <select id="postCategory" class="form-select">
+                                <option selected>Chọn chuyên mục</option>
+                                <option>Nhân vật</option>
+                                <option>Bí kíp võ công</option>
+                                <option>Môn phái</option>
+                                <option>Cảm nhận truyện</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="postImage" class="form-label">Hình ảnh minh họa</label>
+                            <input type="file" id="postImage" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="postContent" class="form-label">Nội dung</label>
+                            <textarea id="postContent" class="form-control" rows="10" placeholder="Nhập nội dung bài viết của bạn"></textarea>
+                        </div>
+                        <div class="d-flex gap-2 justify-content-end">
+                            <a href="danh-sach-bai-viet.html" class="btn btn-outline-secondary">Hủy</a>
+                            <button type="submit" class="btn btn-danger">Đăng bài</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            Viết để lưu giữ đam mê kiếm hiệp
+        </footer>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

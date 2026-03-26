@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệp Khách Kim Dung</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-light">
+    <div class="container my-3 p-0 border bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning-subtle border-bottom px-3">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">
+                <i class="fa-solid fa-dragon"></i> Hiệp Khách Kim Dung
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="danh-sach-bai-viet.html">Bài viết</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tao-bai-viet.html">Đăng bài</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quan-ly-bai-viet.html">Quản lý bài</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trang-ca-nhan.html">Trang cá nhân</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="dang-nhap.html" class="btn btn-outline-dark btn-sm">Đăng nhập</a>
+                    <a href="dang-ky.html" class="btn btn-danger btn-sm">Đăng ký</a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="heroBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/banner1.jpg" class="d-block w-100" alt="Giang ho 1">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5 class="mb-1">Nơi hội tụ fan truyện kiếm hiệp Kim Dung</h5>
+                        <p class="mb-0">Bình luận, chia sẻ và lưu giữ tinh hoa võ học giang hồ.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/banner2.jpg" class="d-block w-100" alt="Giang ho 2">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5 class="mb-1">Viết bài cảm nhận về nhân vật yêu thích</h5>
+                        <p class="mb-0">Quách Tĩnh, Dương Quá, Kiều Phong và nhiều huyền thoại khác.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/banner3.jpg" class="d-block w-100" alt="Giang ho 3">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                        <h5 class="mb-1">Cùng nhau luận kiếm</h5>
+                        <p class="mb-0">Trao đổi về bí kíp, môn phái và những trận chiến kinh điển.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroBanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroBanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <main class="p-4">
+            <div class="row g-3">
+                <div class="col-lg-8">
+                    <h2 class="text-danger mb-3">Bài viết nổi bật</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-3">
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/quachtinh.jpg" class="card-img-top" alt="Quach tinh">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quách Tĩnh và đạo nghĩa giang hồ</h5>
+                                    <p class="card-text">Phân tích cách Quách Tĩnh giữ vững chính đạo giữa thời loạn Tống - Mông.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Đọc chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/duongqua.jpg" class="card-img-top" alt="Duong qua">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dương Quá: kẻ ngông hay bậc đại hiệp?</h5>
+                                    <p class="card-text">Một góc nhìn khác về hành trình trưởng thành của Thần Điêu Đại Hiệp.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Đọc chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="col-lg-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-danger text-white">Bài viết vừa xem</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="chi-tiet-bai-viet.html" class="text-decoration-none text-dark d-block">Quách Tĩnh và đạo nghĩa giang hồ</a>
+                                <small class="text-muted">Đã xem: 5 phút trước</small>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="chi-tiet-bai-viet.html" class="text-decoration-none text-dark d-block">Dương Quá: kẻ ngông hay bậc đại hiệp?</a>
+                                <small class="text-muted">Đã xem: 20 phút trước</small>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="chi-tiet-bai-viet.html" class="text-decoration-none text-dark d-block">Kiều Phong và bi kịch thân thế</a>
+                                <small class="text-muted">Đã xem: 1 giờ trước</small>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="chi-tiet-bai-viet.html" class="text-decoration-none text-dark d-block">Cửu Âm Chân Kinh và cuộc tranh đoạt</a>
+                                <small class="text-muted">Đã xem: hôm qua</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">Tiếp tục đọc</div>
+                        <div class="list-group list-group-flush">
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Lệnh Hồ Xung và triết lý tự do</a>
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Mối tình Dương Quá - Tiểu Long Nữ</a>
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Đả Cẩu Bổng Pháp của Cái Bang</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-white text-center py-3">
+            Website đăng bài truyện kiếm hiệp Kim Dung
+        </footer>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        const bannerElement = document.getElementById('heroBanner');
+        if (bannerElement) {
+            new bootstrap.Carousel(bannerElement, {
+                interval: 3500,
+                ride: 'carousel',
+                pause: false,
+                wrap: true
+            });
+        }
+    </script>
+</body>
+</html>
+

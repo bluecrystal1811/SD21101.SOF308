@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách bài viết</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-light">
+    <div class="container my-3 p-0 border bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning-subtle border-bottom px-3">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">
+                <i class="fa-solid fa-dragon"></i> Hiệp Khách Kim Dung
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="danh-sach-bai-viet.html">Bài viết</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tao-bai-viet.html">Đăng bài</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quan-ly-bai-viet.html">Quản lý bài</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trang-ca-nhan.html">Trang cá nhân</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="p-4">
+            <div class="row g-3">
+                <aside class="col-lg-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-dark text-white">Môn phái</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Toàn Chân Giáo</li>
+                            <li class="list-group-item">Cái Bang</li>
+                            <li class="list-group-item">Minh Giáo</li>
+                            <li class="list-group-item">Thiếu Lâm</li>
+                            <li class="list-group-item">Võ Đang</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-danger text-white">Bài xem nhiều</div>
+                        <div class="list-group list-group-flush">
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Kiều Phong: anh hùng cô độc</a>
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Lệnh Hồ Xung và triết lý tự do</a>
+                            <a href="chi-tiet-bai-viet.html" class="list-group-item list-group-item-action">Vì sao Cửu Âm Chân Kinh được săn lùng?</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <section class="col-lg-8">
+                    <h2 class="text-danger mb-3">Tất cả bài viết</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-3">
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/quachtinh.jpg" class="card-img-top" alt="Quach tinh">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quách Tĩnh và đạo nghĩa giang hồ</h5>
+                                    <p class="card-text">Phân tích cách Quách Tĩnh giữ vững chính đạo giữa thời loạn Tống - Mông.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/duongqua.jpg" class="card-img-top" alt="Duong qua">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dương Quá: kẻ ngông hay bậc đại hiệp?</h5>
+                                    <p class="card-text">Một góc nhìn khác về hành trình trưởng thành của Thần Điêu Đại Hiệp.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/kieuphong.jpg" class="card-img-top" alt="Kieu phong">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kiều Phong và bi kịch thân thế</h5>
+                                    <p class="card-text">Bàn về lựa chọn của Kiều Phong khi đứng giữa gia quốc và huynh đệ.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/lenhhoxung.jpg" class="card-img-top" alt="Lenh ho xung">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lệnh Hồ Xung: đời kiếm khách phóng khoáng</h5>
+                                    <p class="card-text">Nhân vật tiêu biểu cho tinh thần phá bỏ khuôn mẫu trong Tiếu Ngạo Giang Hồ.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/cuuamchankinh.jpg" class="card-img-top" alt="Cuu am chan kinh">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cửu Âm Chân Kinh và cuộc tranh đoạt</h5>
+                                    <p class="card-text">Từ Hoa Sơn luận kiếm đến những bi kịch đằng sau một bộ bí kíp võ học.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <img src="../images/duongquatieulongnu.jpg" class="card-img-top" alt="Duong Qua Tieu Long Nu">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tình yêu Dương Quá - Tiểu Long Nữ</h5>
+                                    <p class="card-text">Mối tình vượt qua lễ giáo, trở thành biểu tượng bất hủ trong lòng độc giả.</p>
+                                    <a href="chi-tiet-bai-viet.html" class="btn btn-outline-danger btn-sm">Chi tiết</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <nav class="mt-4">
+                        <ul class="pagination justify-content-center mb-0">
+                            <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-white text-center py-3">
+            Cộng đồng yêu truyện kiếm hiệp Kim Dung
+        </footer>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
